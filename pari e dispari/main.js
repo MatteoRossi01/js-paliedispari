@@ -50,8 +50,6 @@ function Game(number){
     return vincitore;
 }
 
-let risultato = Game();
-
 if (Game() == true) {
     document.getElementById('risultato').innerHTML = "Hai vinto!!!";
 } else {
